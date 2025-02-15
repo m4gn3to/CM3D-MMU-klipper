@@ -1,5 +1,6 @@
 Para poder instalar klipper en la MMU de prusa hay que configurar la compilación así:
 <img width="586" alt="Config_klipper_mmu_prusa" src="https://github.com/user-attachments/assets/8556a593-49f7-441c-a56c-529862014cfc" />
+
 y dentro de optional features (to reduce code size) hay que dejarlo así:
 ![photo_2025-02-15 22 03 24](https://github.com/user-attachments/assets/a16053ed-beb4-45cd-9310-2e2885587c6a)
 
