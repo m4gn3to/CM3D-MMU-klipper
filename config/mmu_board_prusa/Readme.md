@@ -11,3 +11,13 @@ En la carpeta out nos genera el fichero klipper.elf.hex que es el que necesitare
 Para flashear klipper en la MMU hay que hacerlo a mano, no funciona el "make flash" y además hay que poner la MMU en modo bootloader para que acepte un firmware nuevo.
 
 Para conseguir esto hay que descargar el script: flash_klipper_mmu.sh y modificar el puerto que nos presente la MMU.
+
+Una vez modificado el script con el puerto adecuado hay que darle permisos de ejecución:
+
+$ chmod +x flash_klipper_mmu.sh
+
+y finalmente ejecutarlo.
+
+$./flash_klipper_mmu.sh
+
+Si todo ha ido bien, ya tendremos nuestra MMU con klipper.
